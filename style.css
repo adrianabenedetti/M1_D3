@@ -1,0 +1,136 @@
+body {font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaeded;
+    margin: 0;
+    height: 100vh;
+}
+
+#header {height: 8%; 
+    background-color: #222f3e;
+}
+
+#logo{ 
+    width: 90px;
+    text-align: left;
+    padding-top: 10px; 
+    padding-left: 15px;
+}
+
+nav {
+    background-color: #354758 ; 
+    height: 25px; 
+    box-shadow: 5px 5px 3px #dedede;
+    position: fixed;
+    top: 0;
+}
+
+.nav_item {
+     color: white;
+     text-decoration: none; 
+     font-size: 10pt; 
+     padding: 10px;
+     line-height: 25px;
+}
+ 
+#sub_header{
+    display: block;
+    background-color: #f56600; 
+    height: 30px; 
+    text-align: center; 
+    margin-top: 30px; 
+    margin-bottom: 30px;
+}
+
+#sub_header_text { 
+    text-decoration: none; 
+    color: #ffffff; 
+    font-size: 11pt;  
+    line-height: 30px;
+}
+
+#sub_header_text_2 {text-decoration: none;
+
+}
+
+h2, h4 {
+    text-align: center; 
+    padding-top: 70px; 
+    background-image: url(bg-image.png); 
+    height: 50px; 
+    margin:0;
+    color:white;
+    text-decoration: none;
+}
+
+h4 { padding: 0; height: 70px;
+}
+
+
+#img1, #img2, #img3, #img4 {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 3px #dedede;
+    padding: 0;
+}
+
+.grid-container {display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 5px;
+    background-color: white; 
+    padding-left: 30px;
+}
+
+.grid-item {
+    padding-bottom: 20px; }
+
+#content_1 { 
+    background-color: white; 
+    margin-top: 20px;
+    margin-bottom: 30px; 
+}
+
+.title {
+    display: inline; 
+    padding-left: 20px; 
+    font-size: 13pt; 
+    line-height: 60px;
+}
+
+.link { 
+    font-size: 9pt; 
+    color: #017185; 
+    text-decoration: none; 
+    font-weight: bold; 
+    padding-left: 10px;
+}
+
+#content_img {
+    width: 1200px;
+}
+
+.content_2 {
+    padding-top: 0px; 
+    text-align: center; 
+}
+
+#content_img_2 {
+    width: 1200px;
+}
+
+#back2top {text-align: center; 
+     background-color: #354758; 
+     font-size: 9pt; 
+     height: 40px;
+    }
+
+#link_back2top {text-decoration: none; 
+    color: white; 
+    line-height: 40px; 
+}
+
+footer {background-color: #222f3e; text-align: center; height: 100px;}
+
+#footer_logo {width: 100px; padding-top: 40px; }
+
+
